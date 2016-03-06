@@ -23,8 +23,13 @@ public class ClashRoyale extends JavaPlugin{
   private final static String DATABSE_NAME = "ciao";
   private final static String DATABSE_USER = "ciao";
   private final static String DATABSE_PASSWORD = "ciao";
-  private final static String DATABSE_HOST = "ciao";
   
+  
+  // IP AND PORT 
+  
+  private final static String DATABSE_HOST = "ciao";
+  // default port
+  private final static int DATABASE_PORT = "1433"
 
   public void onEnable(){
     
