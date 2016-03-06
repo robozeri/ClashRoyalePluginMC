@@ -18,7 +18,7 @@ public class ClashRoyale extends JavaPlugin{
   
   public void onEnable(){
     
-    getLogger().info("ClashRoyale è stato avviato."");
+    getLogger().info("ClashRoyale è stato avviato.");
   }
   public void onDisable(){
     
