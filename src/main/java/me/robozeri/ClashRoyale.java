@@ -17,6 +17,8 @@ import org.bukkit.plugin.java.JavaPlugin;
 \___/_/\_,_/___/_//_/_/|_|\___/\_, /\_,_/_/\__/ 
  */
 public class ClashRoyale extends JavaPlugin{
+  //instanzia oggetto
+  private database databse;
   
   public void onEnable(){
     
