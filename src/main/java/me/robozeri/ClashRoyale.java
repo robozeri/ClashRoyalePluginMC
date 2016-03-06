@@ -19,6 +19,14 @@ public class ClashRoyale extends JavaPlugin{
   public void onEnable(){
     
     getLogger().info("ClashRoyale è stato avviato.");
+    this.getCommand("arena").setExecutor(new ArenaCommand());
+    this.getCommand("royale").setExecutor(new RoyaleCommand());
+    this.getCommand("clan").setExecutor(new ClanCommand());
+    this.getCommand("shop").setExecutor(new ArenaCommand());
+    this.getCommand("money").setExecutor(new RoyaleCommand());
+    this.getCommand("info").setExecutor(new ClanCommand());
+    
+    
   }
   public void onDisable(){
     
