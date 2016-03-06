@@ -20,6 +20,7 @@ public class ClashRoyale extends JavaPlugin{
   //instanzia oggetto
   private database database;
   private database DEBUG_DATABASE;
+  boolean debug = false;
   // inserisci dati del tuo databse SQL.
   private final static String DATABSE_NAME = "ciao";
   private final static String DATABSE_USER = "ciao";
@@ -50,8 +51,13 @@ public class ClashRoyale extends JavaPlugin{
     
   }
   private void ConnectSql(){
-    
-    
+    database = new Database(DATABASE_NAME, DATABASE_HOST, DATABASE_HOST, DATABASE_PASSWORD, DATABASE_PORT);
+    DEBUG.DATABASE.connect();
+    if(debug==true){
+      
+      database.connect();
+      
+    }
   }
   private void registerListeners() {
       
