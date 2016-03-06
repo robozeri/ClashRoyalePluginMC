@@ -7,6 +7,8 @@ import me.robozeri.commands.RoyaleCommand;
 import me.robozeri.commands.ShopCommand;
 import me.robozeri.lib.database;
 
+import net.milkbowl.vault.economy.Economy;
+
 import org.bukkit.plugin.java.JavaPlugin;
 /**
   _______         __   ___                 __   
