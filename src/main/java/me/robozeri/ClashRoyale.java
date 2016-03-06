@@ -58,6 +58,11 @@ public class ClashRoyale extends JavaPlugin{
       database.connect();
       
     }
+    else{
+      
+      getLogger().warning("ATTENZIONE NON è STATO POSSIBILE CONNETTERSI AL DATABASE");
+      
+    }
   }
   private void registerListeners() {
       
