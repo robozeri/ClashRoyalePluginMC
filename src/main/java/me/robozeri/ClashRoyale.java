@@ -22,7 +22,7 @@ public class ClashRoyale extends JavaPlugin{
   }
   public void onDisable(){
     
-    
+    getLogger().info("ClashRoyale è stato disabilitato."");
     
   }
   
