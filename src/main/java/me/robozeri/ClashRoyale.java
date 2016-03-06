@@ -37,5 +37,13 @@ public class ClashRoyale extends JavaPlugin{
     getLogger().info("ClashRoyale è stato disabilitato.");
     
   }
+  private void ConnectSql(){
+    
+    
+  }
+  private void registerListeners() {
+      
+  }
+
   
 }
